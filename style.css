@@ -1,0 +1,94 @@
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    font-family :Arial, sans-serif;
+    background: linear-gradient(rgb(21, 20, 20),white);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease-in-out;
+    
+}
+
+.calculator {
+    width: 300PX;
+    height:600 px;
+    background-image:url('messi.jpg');
+    border:#181029;
+    border-radius: 10px;
+    box-shadow: 150px 150px 150px #3d32321a;
+    margin:auto;
+}
+
+#display {
+    width: 260PX;
+    height: 80px;
+    text-align: right;
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    background-color: #e2ebeb;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.buttons {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+button {
+    width: 6Opx;
+    height: 75px;
+    font-size: 18px;
+    border: 2px solid #181029;
+    border-radius: 8px;
+    background-color: hwb(105 8% 91%);
+    cursor: pointer;
+    transition: background-color 0.4s;
+    box-shadow:#562fb1;
+    color:white;
+   
+}
+
+button:hover {
+    background-color: #1e9a96;
+    transform:scale(1.05);
+}
+
+button:active {
+    background-color: #1d1919;
+}
+button:nth-child(4)
+{
+ background-color : #8c988f;
+}
+button:nth-child(8)
+{
+background-color: #8c988f ;
+}
+button:nth-child(12)
+    {
+background-color: #8c988f ;
+    }
+
+button:nth-child(16) {
+    background-color: #8c988f;
+    
+}
+button:nth-child(12):hover {
+    background-color: #218838;
+}
+button:nth-child(8):hover {
+    background-color: #218838;
+}
+button:nth-child(4):hover {
+    background-color: #218838;
+}
+
+button:nth-child(16):hover {
+    background-color: #1e7e34;
+}
